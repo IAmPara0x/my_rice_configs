@@ -10,9 +10,10 @@ Plug 'machakann/vim-highlightedyank'
 Plug 'tpope/vim-surround'
 Plug 'norcalli/nvim-colorizer.lua'
 Plug 'ap/vim-css-color'
-Plug 'airblade/vim-gitgutter'
 Plug 'romainl/vim-cool'
+Plug 'mhinz/vim-signify'
 Plug 'vimwiki/vimwiki'
+" Plug 'airblade/vim-gitgutter'
 call plug#end()
 
 let g:python_recommended_style = 0
@@ -29,6 +30,8 @@ set ai
 set cursorline
 set background=dark
 set termguicolors
+set noswapfile
+set wrap!
 let mapleader = " "
 inoremap jk <Esc>
 noremap <Leader>fs :update<cr>
@@ -43,6 +46,8 @@ nmap <silent> Y y$
 noremap <Leader>y "+y
 noremap <Leader>p "+p
 
+set updatetime=100
+set signcolumn=yes
 
 colorscheme embark
 let g:lightline = {
@@ -72,7 +77,7 @@ if exists('+termguicolors')
   set termguicolors
 endif
 
-highlight Comment cterm=Bolditalic gui=Bolditalic guifg=#ff577f
+highlight Comment cterm=BoldItalic gui=BoldItalic guifg=#ff577f
 highlight HighlightedyankRegion cterm=reverse gui=reverse
 highlight Visual cterm=reverse gui=reverse
 

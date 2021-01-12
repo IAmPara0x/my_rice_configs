@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-	alacritty
+	kitty
 
 # program launcher
 super + @space
@@ -17,6 +17,8 @@ super + b
 super + Escape
 	pkill -USR1 -x sxhkd
 
+super + x
+	/home/paradox/.config/spotify-launch.sh
 
 #
 # bspwm hotkeys

@@ -1,5 +1,6 @@
 [Default Applications]
-application/pdf=org.pwmt.zathura-pdf-poppler.desktop
+application/pdf=org.pwmt.zathura-pdf-mupdf.desktop
 
 [Added Associations]
-application/pdf=org.pwmt.zathura-pdf-poppler.desktop;
+application/pdf=org.pwmt.zathura-pdf-poppler.desktop;org.pwmt.zathura-pdf-mupdf.desktop;
+application/epub+zip=org.pwmt.zathura-ps.desktop;

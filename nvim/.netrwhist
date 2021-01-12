@@ -1,4 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =2
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/paradox/.mozilla'
+let g:netrw_dirhist_5='/home/paradox/.mozilla/firefox'
+let g:netrw_dirhist_4='/home/paradox/.mozilla'
+let g:netrw_dirhist_3='/home/paradox/.moc'
 let g:netrw_dirhist_2='/home/paradox/.config/polybar'
 let g:netrw_dirhist_1='/home/paradox/.config/alacritty'
