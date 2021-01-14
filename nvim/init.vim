@@ -8,12 +8,11 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'machakann/vim-highlightedyank'
 Plug 'tpope/vim-surround'
-Plug 'norcalli/nvim-colorizer.lua'
 Plug 'ap/vim-css-color'
 Plug 'romainl/vim-cool'
 Plug 'mhinz/vim-signify'
 Plug 'vimwiki/vimwiki'
-" Plug 'airblade/vim-gitgutter'
+Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
 let g:python_recommended_style = 0
@@ -32,13 +31,15 @@ set background=dark
 set termguicolors
 set noswapfile
 set wrap!
+set mouse=a
+set encoding=UTF-8
 let mapleader = " "
 inoremap jk <Esc>
 noremap <Leader>fs :update<cr>
+map <C-c><Esc>
 noremap <Leader>ff :Files<cr>
 noremap <Leader>fb :Buffers<cr>
 noremap <Leader>fg :Rg<cr>
-nmap <silent> <Leader>wk :wincmd k<CR>
 nmap <silent> <Leader>wj :wincmd j<CR>
 nmap <silent> <Leader>wh :wincmd h<CR>
 nmap <silent> <Leader>wl :wincmd l<CR>
@@ -68,7 +69,6 @@ require'nvim-treesitter.configs'.setup {
     enable = true,              -- false will disable the whole extension
   },
 }
-require'colorizer'.setup()
 EOF
 
 if exists('+termguicolors')
@@ -80,5 +80,3 @@ endif
 highlight Comment cterm=BoldItalic gui=BoldItalic guifg=#ff577f
 highlight HighlightedyankRegion cterm=reverse gui=reverse
 highlight Visual cterm=reverse gui=reverse
-
-
