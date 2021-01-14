@@ -1,7 +1,7 @@
 
 # BSPWM on Arch Linux rice
 
-##Screen Shots of Enignum OS
+## Screen Shots of Enignum OS
 ![ss1](ss1.png)
 
 ![ss2](ss2.png)
