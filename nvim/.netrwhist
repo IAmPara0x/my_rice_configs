@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =6
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/home/paradox/.config/nvim'
+let g:netrw_dirhist_8='/home/paradox/Desktop/my_projects/glomeruli_detection/VIT_semantic_segmentation'
+let g:netrw_dirhist_7='/home/paradox/Downloads/Wolfram_Mathematica_12.0_Linux/Wolfram_Mathematica_12.0_Linux/Crack'
 let g:netrw_dirhist_6='/home/paradox/.mozilla'
 let g:netrw_dirhist_5='/home/paradox/.mozilla/firefox'
 let g:netrw_dirhist_4='/home/paradox/.mozilla'

@@ -13,12 +13,23 @@ super + @space
 # start brave
 super + b
 	brave
+
+# start brave
+super + shift + b
+	firefox
+
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
 
 super + x
 	/home/paradox/.config/spotify-launch.sh
+
+alt + j
+	amixer -D pulse sset Master 5%-
+
+alt + k
+	amixer -D pulse sset Master 5%+
 
 #
 # bspwm hotkeys
